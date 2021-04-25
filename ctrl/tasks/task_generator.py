@@ -126,7 +126,6 @@ class TaskGenerator(object):
         :param use_cat_id: Legacy prop used with attributes.
         :param tta: use Test Time Augmentation
         """
-        super(TaskGenerator, self).__init__(*args, **kwargs)
         self.task_pool = []
 
         self.concept_pool = concept_pool
